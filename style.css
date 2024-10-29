@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund&display=swap');
+
+body {
+	background-color: navajowhite;
+	font-family: "Playwrite DE Grund", cursive;
+	width: 940px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: burlywood;
+}
+
+nav {
+	height: 40px;
+}
+
+nav li {
+	display: inline;
+	margin: 0px 0px 2px 0px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: navajowhite;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+.menu {
+	padding: auto;
+	margin: auto;
+	border: 2px solid saddlebrown;
+	border-radius: 0px 10px 0px 10px;
+	background-color: saddlebrown;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+p b {
+	color: saddlebrown;
+	font-size: 20px;
+}
+
+.beneficios {
+	margin: 0 0 0 10px;
+	width: 40%;
+	border: 2px solid black;
+	border-radius: 10%;
+	background-color: #ffefd6;
+}
+
+#citacao {
+	font-size: 20px;
+	color: salmon;
+}
+
+.items {
+	font-style: italic;
+}
+
+.direitos-autorais {
+	position: fixed;
+	padding: 10px;
+	background-color: #afa497;
+}
