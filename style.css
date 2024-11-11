@@ -142,12 +142,9 @@ form legend {
 	transform: scale(1.05);
 }
 
-.checkbox {
-	margin: 20px 0;
-}
-
 .enviar {
 	width: 40%;
+	margin: 20px 0;
 	padding: 15px 0;
 	background-color: orange;
 	color: white;
