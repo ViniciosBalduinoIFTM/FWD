@@ -60,6 +60,7 @@ h1 {
 	text-align: center;
 	text-shadow: 1px 2px 6px #FFFFFF;
 	font-size: 2em;
+	animation: chegar 1s;
 }
 
 h2{
@@ -83,8 +84,13 @@ p b {
 	background-color: #ffefd6;
 	opacity: 0.6;
 	transition: 1s all;
+	animation: chegar 1s;
+	animation-play-state: paused;
 }
 
+section:hover .beneficios{
+	animation-play-state: running;
+}
 .beneficios:hover{
 	transform: scale(1.2);
 	opacity: 1;
@@ -187,4 +193,13 @@ form legend {
 
 
 
+}
+
+@keyframes chegar{
+	0%{
+		transform: translateX(-1000px);
+	}
+	100%{
+		transform: translateX(0);
+	}
 }
